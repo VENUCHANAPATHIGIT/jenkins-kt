@@ -6,5 +6,6 @@ import subprocess
 servers = ['google.com', 'facebook.com']
 
 for i in range(2):
-    ping_result = subprocess.getoutput('ping ' + servers[i])
+    #ping_result = subprocess.getoutput('ping ' + servers[i])
+    ping_result = 'ping ' + servers[i]
     print(ping_result)
